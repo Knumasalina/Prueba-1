@@ -1,0 +1,18 @@
+public class Prueba1 {
+
+    public static void main(String[] args){
+        int num1 = 10;
+        int num2 = 5;
+        int num3 = 7;
+        int resultado = SumaNumeros(num1, num2 , num3);
+
+        System.out.println("Los 3 números suman " + resultado);
+    }
+
+    public static int SumaNumeros(int num1, int num2, int num3) {
+        int suma = num1 + num2 + num3;
+        return suma;
+
+    }
+}
+
