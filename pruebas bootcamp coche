@@ -1,0 +1,16 @@
+public class main {
+    public static void main(String[] args) {
+
+        Coche miCoche = new Coche();
+        miCoche.PonerPuertas();
+        System.out.println(miCoche.puertas);
+    }
+    static class Coche{
+        public int puertas = 4;
+
+        public void PonerPuertas() {
+            this.puertas = puertas + 1;
+        }
+    }
+
+}
